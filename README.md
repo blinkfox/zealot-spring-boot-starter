@@ -2,7 +2,9 @@
 
 [![Build Status](https://secure.travis-ci.org/blinkfox/zealot-spring-boot-starter.svg)](https://travis-ci.org/blinkfox/zealot-spring-boot-starter) [![Javadocs](http://www.javadoc.io/badge/com.blinkfox/zealot-spring-boot-starter.svg)](http://www.javadoc.io/doc/com.blinkfox/zealot-spring-boot-starter) [![HitCount](http://hits.dwyl.io/blinkfox/zealot-spring-boot-starter.svg)](http://hits.dwyl.io/blinkfox/zealot-spring-boot-starter) [![GitHub issues](https://img.shields.io/github/issues/blinkfox/zealot-spring-boot-starter.svg)](https://github.com/blinkfox/zealot-spring-boot-starter/issues) [![GitHub license](https://img.shields.io/github/license/blinkfox/zealot-spring-boot-starter.svg)](https://github.com/blinkfox/zealot-spring-boot-starter/blob/master/LICENSE) [![Maven Central](https://img.shields.io/maven-central/v/com.blinkfox/zealot-spring-boot-starter.svg)](http://search.maven.org/#artifactdetails%7Ccom.blinkfox%7Czealot-spring-boot-starter%7C1.2.0%7Cjar) [![GitHub forks](https://img.shields.io/github/forks/blinkfox/zealot-spring-boot-starter.svg)](https://github.com/blinkfox/zealot-spring-boot-starter/network) [![GitHub stars](https://img.shields.io/github/stars/blinkfox/zealot-spring-boot-starter.svg)](https://github.com/blinkfox/zealot-spring-boot-starter/stargazers) [![codecov](https://codecov.io/gh/blinkfox/zealot-spring-boot-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/blinkfox/zealot-spring-boot-starter)
 
-Zealot是一个简单、强大的Java动态SQL和参数生成工具库。[文档地址](https://blinkfox.github.io/zealot/)，`zealot-spring-boot-starter`则是Zealot在SpringBoot中使用的快速集成版，默认不需要任何配置即可使用。
+Zealot是一个简单、强大的Java动态SQL和参数生成工具库。[Zealot文档地址](https://blinkfox.github.io/zealot/)
+
+`zealot-spring-boot-starter`则是Zealot在SpringBoot中使用的快速集成版，默认不需要任何配置即可使用。
 
 ## 获取Zealot Spring Boot Starter
 
