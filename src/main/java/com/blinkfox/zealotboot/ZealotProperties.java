@@ -13,7 +13,7 @@ public class ZealotProperties {
     /** 是否开启调试模式，如果开启的话，每次调用都会实时从最新的xml文件中获取sql，默认值为false. */
     private boolean debug;
 
-    /** 是否打印zealot的启动banner，在SpringBoot项目中默认设为false. */
+    /** 是否打印zealot的启动banner，默认为true. */
     private boolean printBanner;
 
     /** 是否打印zealot的sql日志，默认为true. */
@@ -29,19 +29,8 @@ public class ZealotProperties {
      * 无参构造方法，构造对象时赋予默认值.
      */
     public ZealotProperties() {
-        this.printBanner = false;
+        this.printBanner = true;
         this.printSql = true;
-    }
-
-    /**
-     * 重写的toString()方法.
-     *
-     * @return 字符串
-     */
-    @Override
-    public String toString() {
-        return String.format("debug:%b, printBanner:%b, printSql:%b, xmlLocations:%s, handlerLocations:%s",
-                debug, printBanner, printSql, xmlLocations, handlerLocations);
     }
 
     /* 以下是 getter 和 setter 方法. */

@@ -2,6 +2,7 @@ package com.blinkfox.zealotboot;
 
 import com.blinkfox.zealot.config.ZealotConfigManager;
 import com.blinkfox.zealot.config.entity.NormalConfig;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
@@ -20,6 +21,7 @@ public class ZealotAutoConfiguration {
 
     /**
      * 构造方法.
+     * @param properties Zealot的属性配置对象
      */
     @Autowired
     public ZealotAutoConfiguration(ZealotProperties properties) {

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 查询老师相关的SQL信息，命名空间nameSpace为zealots的根节点属性，各xml文件的nameSpace不能相同. -->
+<zealots nameSpace="myTeacher">
+
+    <!-- 根据Id查询学生信息. -->
+    <zealot id="queryTeacherById">
+        SELECT * FROM t_teacher AS t WHERE
+        <equal field="t.c_id" value="id"/>
+    </zealot>
+
+</zealots>
